@@ -1,11 +1,45 @@
 //MASTER//
-.info_header{
+.presentacion{
+    display: flex;
+    padding-left: 54px;
+    justify-content: space-between;
+}
+
+    .info-prese{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 142px;
+    }
+
+.info-porque{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 100px;
-    left: 25%;
-    
+    margin-top: 96px;
 }
+    .porque{
+        display: flex;
+        justify-content: center;
+    }
+
+        .why{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .razones{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .razon{
+                display: flex;
+            }
+    
+    .ctas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }

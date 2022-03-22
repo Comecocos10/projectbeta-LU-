@@ -1,0 +1,23 @@
+//TEXT//
+
+    .text-presentacion{
+        font-family: $text;
+        font-size: $p-big;
+        font-weight: $bold;
+        color: $black;
+        height: 210px;
+        width: 417px;
+        text-align: center;
+        background-color: $white;
+        margin: 0;
+    }
+
+    .text-why{
+        font-family: $text;
+        font-size: $p-big;
+        font-weight: $regular;
+        margin-top: 0;
+        margin-left: 32px;
+        color: $black;
+        max-width: 1190px;
+    }
