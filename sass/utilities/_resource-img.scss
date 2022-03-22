@@ -1,19 +1,17 @@
 //IMG HEADER//
 
-    .imagen_blur{
+    .imagen-blur{
         filter: blur(15px);
         position: absolute;
-        width: 100%;
-        max-height: 933px;
+        width: 100vw;
     }
-    .imagen_opacity{
+    .imagen-opacity{
         opacity: 40%;
-        width: 100%;
-        max-height: 933px;
+        width: 100vw;
     }
 
 
-//LOGO HEADER MASTER//
+//LOGO MASTER//
 
     .logo-sombra{
         z-index: 2;
@@ -22,8 +20,29 @@
         padding-bottom: 12px;
     }
 
+    .logo-footer{
+        width: 155px;
+        padding-top: 42px;
+    }
+
 //IMAGEN MASTER//
 
     .img-lu{
         filter: opacity(60%);
+        height: 934px;
+    }
+
+    .simbolo-r{
+        width: 45px;
+        height: 45px;
+        margin-top: 3px;
+    }
+
+    .dibujo-lu{
+        height: 576px;
+        opacity: 25%;
+        filter: blur(1.5px);
+        position: absolute;
+        left: 0;
+        z-index: -1;
     }
