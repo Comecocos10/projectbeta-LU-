@@ -1,7 +1,10 @@
-//BOTONES//
-.boton_se_text{
+//MASTER//
+.link-pr{
     font-family: $title;
     font-size: $h4;
-    text-align: center;
-    color: #155B2B;
+    color: $white;
+    z-index: 0;
+    position: absolute;
+    left: 45%;
+    top: 789px;
 }
