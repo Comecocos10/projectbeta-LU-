@@ -99,6 +99,8 @@ body {
   font-family: "Port Lligat Sans", sans-serif;
   font-size: 36px;
   color: #FCFBF7;
+  z-index: 0;
   position: absolute;
-  z-index: 2;
+  left: 45%;
+  top: 789px;
 }
