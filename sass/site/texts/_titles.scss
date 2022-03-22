@@ -1,0 +1,15 @@
+//TITULOS MASTER//
+
+    .titulo-master{
+        font-family: $title;
+        font-size: $h1;
+        color: $white;
+        width: 872px;
+        text-align: center;
+        position: absolute;
+        top: 375px;
+        left: 27%;
+        z-index: 2;
+        filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
+
+    }
