@@ -1,0 +1,17 @@
+* {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.imagen_blur {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  position: absolute;
+  width: 99%;
+}
+
+.imagen_opacity {
+  opacity: 50%;
+  width: 100%;
+}

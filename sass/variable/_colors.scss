@@ -1,0 +1,24 @@
+//Basics Colors//
+$green-dark: #155B2B;
+$green-medium: #3D9C4C;
+$green-light: #83BD79;
+
+//Complementari Colors//
+$red-dark: #651901;
+$red-medium: #B22B01;
+$red-light: #E93901;
+
+//Acent Colors//
+$yellow-dark: #E9B500;
+$yellow-light: #F9E18E;
+
+//Neutral Colors//
+$black: #1D2824;
+$white: #FCFBF7;
+$beige: #F8F6EC;
+
+//Gradients//
+$green-gradient: linear-gradient(90deg, $green-light, $green-dark);
+$red-gradient: linear-gradient(90deg, $red-light, $red-dark);
+$yellow-gradient: linear-gradient(90deg, $yellow-light, $yellow-dark);
+$danger-grandient: linear-gradient(90deg, $yellow-dark 20%, $red-light 80%);
