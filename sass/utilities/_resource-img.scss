@@ -4,11 +4,26 @@
         filter: blur(15px);
         position: absolute;
         width: 100%;
-        max-height: 1120px;
+        max-height: 933px;
     }
     .imagen_opacity{
         opacity: 40%;
         width: 100%;
-        max-height: 1120px;
+        max-height: 933px;
     }
-   
+
+
+//LOGO HEADER MASTER//
+
+    .logo-sombra{
+        z-index: 2;
+        filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
+        width: 286px;
+        padding-bottom: 12px;
+    }
+
+//IMAGEN MASTER//
+
+    .img-lu{
+        filter: opacity(60%);
+    }
