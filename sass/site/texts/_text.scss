@@ -1,4 +1,4 @@
-//TEXT//
+//TEXT HEADER//
 
     .text-presentacion{
         font-family: $text;
@@ -37,4 +37,35 @@
         height: fit-content;
         margin-top: 6px;
         margin-bottom: 6px;
+    }
+
+//TEXT PRODUCT PAGE//
+
+    .text-header-pproduct-bold{
+        font-family: $text;
+        font-size: $p-big;
+        font-weight: $bold;
+        color: $black;
+        text-align: center;
+        margin: 0;
+        max-width: 988px;
+    }
+    .text-header-pproduct{
+        font-family: $text;
+        font-size: $p-big;
+        font-weight: $regular;
+        color: $black;
+        text-align: center;
+        margin-top: 24px;
+        max-width: 920px;
+    }
+
+    .text-product{
+        font-family: $text;
+        font-size: $p-medium;
+        font-weight: $regular;
+        color: $black;
+        text-align: center;
+        max-width: 1050px;
+        align-self: center;
     }

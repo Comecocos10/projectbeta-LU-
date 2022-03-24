@@ -30,3 +30,15 @@
 .link-footer-little:hover{
     color: $yellow-dark
 }
+
+.link-footer-tiny{
+    font-family: $text;
+    font-size: $p-little;
+    color: $white;
+    font-weight: $bold;
+    margin: 12px;
+    align-self: center;
+}
+.link-footer-tiny:hover{
+    color: $yellow-dark
+}

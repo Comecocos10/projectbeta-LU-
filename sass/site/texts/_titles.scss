@@ -39,3 +39,16 @@
         height: fit-content;
         margin-top: 12px;
     }
+
+//TITULOS FIRST-SHOP//
+
+    .titel-shop{
+        font-family: $title;
+        font-size: $h2;
+        font-weight: $regular;
+        color: $green-dark;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 30px;
+        max-width: 990px;
+    }
