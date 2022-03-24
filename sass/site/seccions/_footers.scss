@@ -1,7 +1,39 @@
 //MASTER//
-
-.footer-master-fondo{
-    position: relative;
-    z-index: -1;
-    bottom: 0px;
+.footer-master{
+    display: flex;
+    flex-direction: column;
+    margin-left: 270px;
+    padding-top: 24px;
 }
+
+    .secciones-footer{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        justify-content: space-between;
+    }
+
+        .seccion-footer{
+            margin-right: 54px;
+        }
+
+
+    .secciones-dos-footer{
+        display: flex;
+        align-items: end;
+
+    }
+
+        .direccion-d-footer{
+            margin-left: 50px;
+        }
+
+    .icon-text-footer{
+        display: flex;
+        align-items: center;
+        margin-right: 36px;
+    }
+
+    .redes-footer{
+            display: flex;
+        }

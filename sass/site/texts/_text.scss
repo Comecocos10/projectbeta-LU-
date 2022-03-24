@@ -8,16 +8,33 @@
         height: 210px;
         width: 417px;
         text-align: center;
-        background-color: $white;
         margin: 0;
     }
 
     .text-why{
         font-family: $text;
-        font-size: $p-big;
+        font-size: $p-medium;
         font-weight: $regular;
         margin-top: 0;
         margin-left: 32px;
         color: $black;
-        max-width: 1190px;
+        max-width: 1000px;
+    }
+
+    .textenlace-footer{
+        font-family: $text;
+        font-size: $p-extralittle;
+        color: $white;
+        font-weight: $regular;
+        max-width: 370px;
+    }
+
+    .text-footer{
+        font-family: $text;
+        font-size: $p-extralittle;
+        color: $white;
+        font-weight: $bold;
+        height: fit-content;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }

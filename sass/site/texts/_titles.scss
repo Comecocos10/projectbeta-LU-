@@ -28,4 +28,14 @@
         font-weight: $regular;
         color: $black;
         text-align: center;
+        margin-top: 66px;
+    }
+
+    .titel-footer{
+        font-family: $text;
+        font-size: $p-little;
+        font-weight: $regular;
+        color: $white;
+        height: fit-content;
+        margin-top: 12px;
     }
