@@ -6,3 +6,27 @@
     z-index: 0;
     padding: 24px;
 }
+.link-pr:hover{
+    color: $yellow-light
+}
+
+.link-footer{
+    font-family: $text;
+    font-size: $p-little;
+    color: $white;
+    font-weight: $bold;
+}
+.link-footer:hover{
+    color: $yellow-dark
+}
+
+.link-footer-little{
+    font-family: $text;
+    font-size: $p-extralittle;
+    color: $white;
+    font-weight: $bold;
+    text-decoration: none;
+}
+.link-footer-little:hover{
+    color: $yellow-dark
+}
