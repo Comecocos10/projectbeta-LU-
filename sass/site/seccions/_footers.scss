@@ -37,3 +37,46 @@
     .redes-footer{
             display: flex;
         }
+
+//PRODUCT PAGE//
+.footer-pproduct{
+    background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+    margin-top: 90px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.footer-pproduct-enlaces{
+    display: flex;
+    margin-top: 30px;
+}
+
+.secciones-footer-pproduct{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        justify-content: space-around;
+        align-self: center;
+    }
+
+.icon-text-footer-tiny{
+        display: flex;
+        align-items: center;
+        margin-right: 24px;
+        margin: 12px;
+    }
+    .icon-text-footer-tiny:hover{
+    animation: rrss 1.5s 1;
+	transform-origin: center;
+    }
+        @keyframes rrss {
+        from { transform: none; }
+        50% { transform: scale(1.5); }
+        to { transform: none; }
+    }
+
+.direccion-footer{
+    margin-left: 78px;
+}
