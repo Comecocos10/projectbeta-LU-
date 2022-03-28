@@ -1,0 +1,28 @@
+.titulo-filldata{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 36px;
+}
+
+.inputs-little{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-nd-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 42px;
+}
+
+.checkbox-nd-boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+}

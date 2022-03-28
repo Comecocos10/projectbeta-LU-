@@ -1,9 +1,71 @@
-//Input empty//
 
-    //Input Icon//
+.input-princ{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+    .cuadro-input-princ-border{
+        padding: 3px;
+        padding-top: 3px;
+        margin-bottom: 24px;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 9px;
+        z-index: 0;
+        background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+    }
 
-//Input full//
+    .cuadro-input-princ{
+        background-color: $white;
+        border: none;
+        border-radius: 6px;
+        width: 500px;
+        height: 40px;
+        box-shadow: inset 3px 3px 10px rgba(25, 35, 31, 0.5);
+    }
 
-    //Input Icon//
+    .cuadro-input-princbig{
+        background-color: $white;
+        border: none;
+        border-radius: 6px;
+        width: 650px;
+        height: 40px;
+        box-shadow: inset 3px 3px 10px rgba(25, 35, 31, 0.5);
+    }
 
-    //Input DropD
+    .cuadro-input-princlittle{
+        background-color: $white;
+        border: none;
+        border-radius: 6px;
+        width: 300px;
+        height: 40px;
+        box-shadow: inset 3px 3px 10px rgba(25, 35, 31, 0.5);
+    }
+
+.checkbox-box{
+    padding: 3px;
+    padding-top: 3px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    z-index: 0;
+    background-color: $green-dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .checkbox-guardar{
+        width: 45px;
+        height: 45px;
+        border-radius: 3px;
+        margin: 0;
+        background-color: $beige;
+    }
+        .checkbox-guardar:checked{
+            width: 45px;
+            height: 45px;
+            border: 3px solid $green-dark;
+            margin: 0;
+            background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+        }

@@ -42,3 +42,16 @@
 .link-footer-tiny:hover{
     color: $yellow-dark
 }
+
+.link-register-tiny{
+    font-family: $text;
+    font-size: $p-little;
+    color: $green-dark;
+    font-weight: $bold;
+    margin-top: 42px;
+    margin-bottom: 24px;
+    align-self: center;
+}
+.link-register-tiny:hover{
+    color: $red-medium;
+}

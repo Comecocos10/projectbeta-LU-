@@ -1,16 +1,4 @@
-//Text Card//
-.cuadro{
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    padding: 0;
-    border: 0;
-    border-radius: 9px;
-    background-color: $beige;
-    padding: 36px;
-
-}
-
+//TEXT CARD//
 .cuadro-border{
     padding: 6px;
     padding-top: 6px;
@@ -25,6 +13,46 @@
     justify-content: center;
 }
 
+.cuadro{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    padding: 0;
+    border: 0;
+    border-radius: 9px;
+    background-color: $beige;
+    padding: 36px;
+
+}
+//INPUT CARD//
+
+.inputs-register{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: 0;
+    border-radius: 9px;
+    background-color: $beige;
+    padding: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-filldata-card{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: 0;
+    border-radius: 9px;
+    background-color: $beige;
+    padding: 78px;
+    justify-content: center;
+    align-items: center;
+}
 //Blog Card//
 
 //Recipe Card//
