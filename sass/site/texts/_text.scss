@@ -82,6 +82,18 @@
         margin: 0;
     }
 
+//TEXT WELCOME//
+
+    .text-welcome{
+        font-family: $text;
+        font-size: $p-big;
+        font-weight: $regular;
+        color: $black;
+        text-align: center;
+        width: 990px;
+        margin: 54px
+    }
+
 //TEXT INPUTS//
 
     .text-input-princ{

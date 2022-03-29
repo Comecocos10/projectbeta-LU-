@@ -26,22 +26,41 @@ body{
         to { transform: none; }
     }
 
+        @keyframes latidos-mini {
+        from { transform: none; }
+        40% { transform: scale(2.5); }
+        to { transform: none; }
+    }
         .izq{
             top: 1350px;
+            left: -25px;
         }
+        .izq-little{
+            top: 350px;
+            left: -25px;
+            animation: latidos-mini 8s infinite;
+	        transform-origin: center;
+        }
+    
         .drc{
-            right: 50px;
+            right: -25px;
             top: 2500px;
         }
         .drc-medium{
-            right: 50px;
+            right: -25px;
             top: 2000px;
         }
         .drc-little{
-            right: 50px;
+            right: -25px;
             top: 1790px;
         }
         .drc-extralittle{
-            right: 50px;
+            right: -25px;
             top: 630px;
+        }
+        .drc-maxilittle{
+            right: -25px;
+            top: 330px;
+            animation: latidos-mini 8s infinite;
+	        transform-origin: center;
         }
