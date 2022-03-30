@@ -39,17 +39,16 @@
     z-index: 100;
 }
 
+.b-infor{
+    display: none;
+}
+
 .infor-full{
     overflow: none;
+    display: none;
     position: absolute;
     top: 61%;
     left: 50%;
-}
-
-.b-infor{
-    position: relative;
-    top: 25%;
-    display: none;
 }
 
 .infor-info{
@@ -60,7 +59,7 @@
 
 .icons-infor{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
 }
 

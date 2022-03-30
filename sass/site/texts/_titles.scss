@@ -83,9 +83,20 @@
         font-weight: $regular;
         color: $black;
         text-align: center;
-        padding-bottom: 24px;
-        margin-top: 88px;
+        margin-top: 60px;
+        margin-bottom: 54px;animation: titulo 2s 3;
+	    transform-origin: center;
     }
+        @keyframes titulo {
+        from { color:$black }
+        10% { color: $green-dark; }
+        30% { color: $yellow-dark; }
+        50% { color: $yellow-light; }
+        70% { color: $yellow-dark; }
+        90% { color: $green-dark; }
+        to { color: $black; }
+    }
+    
 
 //TITULO MODAL//
 

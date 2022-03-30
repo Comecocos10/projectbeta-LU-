@@ -47,6 +47,13 @@ body{
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
         }
+
+        .izq-maxlittle{
+            top: 200px;
+            left: -25px;
+            animation: latidos-mini 8s infinite;
+	        transform-origin: center;
+        }
     
         .drc{
             right: 5px;
@@ -66,7 +73,7 @@ body{
         }
         .drc-maxilittle{
             right: 5px;
-            top: 330px;
+            top: 200px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
         }
