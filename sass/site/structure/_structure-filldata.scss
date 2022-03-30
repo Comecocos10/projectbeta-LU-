@@ -1,0 +1,42 @@
+.cuerpo-filldata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-filldata{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-filldata-tarjet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 38px;
+}
+
+
+.inputs-little{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkbox-nd-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.checkbox-nd-boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}

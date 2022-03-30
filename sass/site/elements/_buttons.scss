@@ -18,6 +18,7 @@
 }
 
 .boton-pr{
+    box-shadow: 4px 4px 4px rgba(29, 40, 36, 0.25);
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -39,6 +40,10 @@
         to { transform: none; }
     }
 
+.boton-pr-modal{
+    display: none;
+}
+
 //BOTON SECUNDARIO//
 .boton-se-text{
     font-family: $title;
@@ -58,6 +63,7 @@
 }
 
 .boton-se{
+    box-shadow: 10px 10px 10px rgba(29, 40, 36, 0.25);
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -90,3 +96,49 @@
         50% { transform: scale(1.1); }
         to { transform: none; }
     }
+
+//BOTON DANGER//
+.boton-da-text{
+    font-family: $title;
+    font-size: $h4;
+    text-align: center;
+    color: $white;
+    text-decoration: none;
+    padding: 32px;
+}
+
+.boton-da-text-conicono{
+    padding: 32px 32px 32px 12px;
+    font-family: $title;
+    font-size: $h4;
+    text-align: center;
+    color: $white;
+    text-decoration: none;
+}
+
+.boton-da{
+    box-shadow: 4px 4px 4px rgba(29, 40, 36, 0.25);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    border-radius: 21px;
+    background-image: linear-gradient(180deg, #E9B500 -10%, #E93901 33%) ;
+}
+
+.boton-da:hover{
+    animation: boton 1s 1;
+	transform-origin: center;
+    }
+        @keyframes boton {
+        from { transform: none; }
+        50% { transform: scale(1.1); }
+        to { transform: none; }
+    }
+
+.boton-da-modal{
+    display: none;
+}

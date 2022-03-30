@@ -40,7 +40,7 @@
         margin-top: 12px;
     }
 
-//TITULOS FIRST-SHOP//
+//TITULOS PRODUCT PAGE//
 
     .titel-shop{
         font-family: $title;
@@ -51,4 +51,49 @@
         margin-top: 24px;
         margin-bottom: 30px;
         max-width: 990px;
+    }
+
+//TITULOS REGISTER//
+
+    .titulo-inputs-register{
+        font-family: $title;
+        font-size: $h3;
+        font-weight: $regular;
+        color: $black;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+//TITULOS FILLDATA//
+
+    .titulotext-filldata{
+        font-family: $title;
+        font-size: $h3;
+        font-weight: $regular;
+        color: $black;
+        text-align: center;
+        margin: 12px;
+    }
+
+//TITULO WELCOME//
+
+    .titulo-welcome{
+        font-family: $title;
+        font-size: $h1;
+        font-weight: $regular;
+        color: $black;
+        text-align: center;
+        padding-bottom: 24px;
+        margin-top: 88px;
+    }
+
+//TITULO MODAL//
+
+    .titulo-modal{
+        font-family: $title;
+        font-size: $h2;
+        font-weight: $regular;
+        color: $black;
+        text-align: center
+
     }

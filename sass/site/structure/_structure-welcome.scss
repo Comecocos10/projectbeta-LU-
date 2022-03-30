@@ -1,0 +1,14 @@
+.info-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .ctas-welcome{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin-bottom: 48px;
+        margin-top: 48px;
+    }

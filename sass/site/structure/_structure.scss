@@ -3,8 +3,70 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
-    overflow-x: hidden;
     background-color: $white;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
 }
+
+.degradado{
+        background-color: $green-dark;
+        z-index: -1;
+        width: 75px;
+        height: 350px;
+        border-radius: 250px;
+        position: absolute;
+        filter: blur(70px);
+        animation: latidos 8s infinite;
+	    transform-origin: center;
+    }
+        @keyframes latidos {
+        from { transform: none; }
+        40% { transform: scale(4); }
+        to { transform: none; }
+    }
+
+        @keyframes latidos-mini {
+        from { transform: none; }
+        40% { transform: scale(2.5); }
+        to { transform: none; }
+    }
+        .izq{
+            top: 1350px;
+            left: -25px;
+        }
+        .izq-little{
+            top: 350px;
+            left: -25px;
+            animation: latidos-mini 8s infinite;
+	        transform-origin: center;
+        }
+    
+        .drc{
+            right: 5px;
+            top: 2500px;
+        }
+        .drc-medium{
+            right: 5px;
+            top: 2000px;
+        }
+        .drc-little{
+            right: 5px;
+            top: 1690px;
+        }
+        .drc-extralittle{
+            right: 1px;
+            top: 630px;
+        }
+        .drc-maxilittle{
+            right: 5px;
+            top: 330px;
+            animation: latidos-mini 8s infinite;
+	        transform-origin: center;
+        }
