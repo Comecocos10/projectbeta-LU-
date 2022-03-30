@@ -12,8 +12,8 @@
 .modal{
     overflow: none;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 15%;
+    left: 15%;
 }
 
 .modal-info{
@@ -39,17 +39,16 @@
     z-index: 100;
 }
 
-.infor-full{
-    overflow: none;
-    position: absolute;
-    top: 61%;
-    left: 50%;
+.b-infor{
+    display: none;
 }
 
-.b-infor{
-    position: relative;
-    top: 25%;
+.infor-full{
+    overflow: none;
     display: none;
+    position: absolute;
+    top: 75%;
+    left: 50%;
 }
 
 .infor-info{
@@ -60,7 +59,7 @@
 
 .icons-infor{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
 }
 
@@ -68,7 +67,7 @@
 .infor-full-cvc{
     overflow: none;
     position: absolute;
-    top: 1845px;
+    top: 1705px;
     left: 50%;
     max-width: 500px;
 }
@@ -126,20 +125,19 @@
 .filldata{
     overflow: none;
     position: absolute;
-    top: 15%;
-    left: 15%;
+    top: 5%;
+    left: 17%;
 }
 
 .filldata-info{ 
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 .b-filldata{
     position: relative;
     top: 25%;
-    display: none;
 }
 
 .icons-filldata{

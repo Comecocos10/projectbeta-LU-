@@ -30,14 +30,25 @@
         width: 100vw;
     }
 
-
-
 //LOGO MASTER//
 
     .logo-sombra{
         z-index: 2;
         filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
-        width: 286px;
+        width: 216px;
+        padding-bottom: 36px;
+        animation: escala2 4s 1;
+        transform-origin: center;
+    }
+        @keyframes escala2 {
+        from { transform: none; }
+        50% { transform: scale(1.1); }
+        to { transform: none; }
+    }
+    .logo-sombra-mundo{
+        z-index: 2;
+        filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
+        width: 146px;
         padding-bottom: 36px;
         animation: escala2 4s 1;
         transform-origin: center;
@@ -68,10 +79,10 @@
     }
 
     .logo-footer-pp{
-        width: 60px;
+        width: 48px;
         margin-top: 24px;
-        margin-left: 66px;
-        margin-right: 66px;
+        margin-left: 54px;
+        margin-right: 54px;
         z-index: 2;
     }
 
@@ -85,14 +96,12 @@
         margin-bottom: 30px;
         z-index: 2;
     }
-    
 
 //IMAGEN MASTER//
 
     .img-lu{
         filter: opacity(60%);
-        height: 934px;
-        margin-top: 18px;
+        height: 724px;
         animation: rotate-img 0.25s 4 5s;
         transform-origin: center;
     }
@@ -102,8 +111,6 @@
         75% { transform: rotate(-5deg); }
         to { transform: none; }
     }
-    
-    
 
     .simbolo-r{
         width: 45px;
@@ -112,7 +119,7 @@
     }
 
     .dibujo-lu{
-        height: 576px;
+        height: 516px;
         opacity: 25%;
         position: absolute;
         left: -0px;
@@ -131,7 +138,7 @@
         position: absolute;
         z-index: -1;
         width: 105vw;
-        height: 370px;
+        height: 330px;
     }
 
 //IMAGEN PRODUCTOPAGE//

@@ -11,8 +11,6 @@ body{
     margin: 0px;
     background-color: $white;
     overflow-x: hidden;
-    scroll-behavior: smooth;
-
 }
 
 .degradado{
@@ -38,7 +36,7 @@ body{
         to { transform: none; }
     }
         .izq{
-            top: 1350px;
+            top: 1050px;
             left: -25px;
         }
         .izq-little{
@@ -47,26 +45,33 @@ body{
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
         }
+
+        .izq-maxlittle{
+            top: 200px;
+            left: -25px;
+            animation: latidos-mini 8s infinite;
+	        transform-origin: center;
+        }
     
         .drc{
             right: 5px;
-            top: 2500px;
+            top: 2050px;
         }
         .drc-medium{
             right: 5px;
-            top: 2000px;
+            top: 1800px;
         }
         .drc-little{
             right: 5px;
-            top: 1690px;
+            top: 1490px;
         }
         .drc-extralittle{
             right: 1px;
-            top: 630px;
+            top: 430px;
         }
         .drc-maxilittle{
             right: 5px;
-            top: 330px;
+            top: 200px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
         }

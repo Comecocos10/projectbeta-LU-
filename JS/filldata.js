@@ -28,7 +28,7 @@ function Edit() {
 
 function showElementFilldata() {
     const check = document.querySelector('.b-filldata');
-    if (check.checked === true) {
+    if (check.checked) {
         document.querySelector('.filldata-full').style.display = 'block';
     } else {
         document.querySelector('.filldata-full').style.display = 'none';
