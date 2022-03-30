@@ -68,7 +68,7 @@
   z-index: 2;
   -webkit-filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
           filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
-  width: 286px;
+  width: 216px;
   padding-bottom: 36px;
   -webkit-animation: escala2 4s 1;
           animation: escala2 4s 1;
@@ -89,6 +89,32 @@
     -webkit-transform: none;
             transform: none;
   }
+}
+
+@keyframes escala2 {
+  from {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  to {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+.logo-sombra-mundo {
+  z-index: 2;
+  -webkit-filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
+          filter: drop-shadow(9px 9px 1px rgba(29, 40, 36, 0.5));
+  width: 146px;
+  padding-bottom: 36px;
+  -webkit-animation: escala2 4s 1;
+          animation: escala2 4s 1;
+  -webkit-transform-origin: center;
+          transform-origin: center;
 }
 
 @keyframes escala2 {
@@ -150,10 +176,10 @@
   }
 }
 .logo-footer-pp {
-  width: 60px;
+  width: 48px;
   margin-top: 24px;
-  margin-left: 66px;
-  margin-right: 66px;
+  margin-left: 54px;
+  margin-right: 54px;
   z-index: 2;
 }
 
@@ -169,8 +195,7 @@
 .img-lu {
   -webkit-filter: opacity(60%);
           filter: opacity(60%);
-  height: 934px;
-  margin-top: 18px;
+  height: 724px;
   -webkit-animation: rotate-img 0.25s 4 5s;
           animation: rotate-img 0.25s 4 5s;
   -webkit-transform-origin: center;
@@ -221,7 +246,7 @@
 }
 
 .dibujo-lu {
-  height: 576px;
+  height: 516px;
   opacity: 25%;
   position: absolute;
   left: 0px;
@@ -273,7 +298,7 @@
   position: absolute;
   z-index: -1;
   width: 105vw;
-  height: 370px;
+  height: 330px;
 }
 
 .imagen-product {
@@ -411,7 +436,6 @@ body {
   margin: 0px;
   background-color: #FCFBF7;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 .degradado {
@@ -487,7 +511,7 @@ body {
   }
 }
 .izq {
-  top: 1350px;
+  top: 1050px;
   left: -25px;
 }
 
@@ -511,22 +535,22 @@ body {
 
 .drc {
   right: 5px;
-  top: 2500px;
+  top: 2050px;
 }
 
 .drc-medium {
   right: 5px;
-  top: 2000px;
+  top: 1800px;
 }
 
 .drc-little {
   right: 5px;
-  top: 1690px;
+  top: 1490px;
 }
 
 .drc-extralittle {
   right: 1px;
-  top: 630px;
+  top: 430px;
 }
 
 .drc-maxilittle {
@@ -562,7 +586,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 142px;
+  margin-left: 72px;
 }
 
 .info-porque {
@@ -577,7 +601,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 96px;
-  margin-bottom: 152px;
+  margin-bottom: 90px;
 }
 
 .porque {
@@ -587,7 +611,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 42px;
+  margin-bottom: 6px;
 }
 
 .why {
@@ -849,8 +873,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 1000px;
-  margin-bottom: 48px;
-  margin-top: 48px;
+  margin-bottom: 36px;
+  margin-top: 36px;
 }
 
 .info-header {
@@ -868,7 +892,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 90px;
+  top: 36px;
   left: 25%;
 }
 
@@ -971,6 +995,22 @@ body {
   width: 100vw;
 }
 
+.footer-pproduct-dos {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#83BD79), to(#155B2B));
+  background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+  padding-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
 .footer-pproduct-enlaces {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -996,6 +1036,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  width: 100%;
 }
 
 .icon-text-footer-tiny {
@@ -1046,12 +1087,12 @@ body {
   }
 }
 .direccion-footer {
-  margin-left: 78px;
-  margin-right: 78px;
+  margin-left: 135px;
+  margin-right: 54px;
 }
 
 .welcome {
-  margin-top: 60px;
+  margin-top: 21px;
 }
 
 [aria=dialog] {
@@ -1069,8 +1110,8 @@ body {
 .modal {
   overflow: none;
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 15%;
+  left: 15%;
 }
 
 .modal-info {
@@ -1116,7 +1157,7 @@ body {
   overflow: none;
   display: none;
   position: absolute;
-  top: 61%;
+  top: 75%;
   left: 50%;
 }
 
@@ -1146,7 +1187,7 @@ body {
 .infor-full-cvc {
   overflow: none;
   position: absolute;
-  top: 1845px;
+  top: 1705px;
   left: 50%;
   max-width: 500px;
 }
@@ -1225,8 +1266,8 @@ body {
 .filldata {
   overflow: none;
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: 5%;
+  left: 17%;
 }
 
 .filldata-info {
@@ -1245,7 +1286,6 @@ body {
 .b-filldata {
   position: relative;
   top: 25%;
-  display: none;
 }
 
 .icons-filldata {
@@ -1309,7 +1349,7 @@ body {
 
 .cuadro-input-princ {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #FCFBF7;
   border: none;
   width: 500px;
@@ -1388,7 +1428,7 @@ body {
 
 .cuadro-input-princbig {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #FCFBF7;
   border: none;
   border-radius: 6px;
@@ -1448,7 +1488,7 @@ body {
 
 .cuadro-input-little {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #FCFBF7;
   border: none;
   border-radius: 6px;
@@ -1470,7 +1510,7 @@ body {
 
 .cuadro-input-princlittle {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #FCFBF7;
   border: none;
   border-radius: 6px;
@@ -1575,7 +1615,7 @@ body {
 
 .boton-pr-text {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #FCFBF7;
   text-decoration: none;
@@ -1585,7 +1625,7 @@ body {
 .boton-pr-text-conicono {
   padding: 32px 32px 32px 12px;
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #FCFBF7;
   text-decoration: none;
@@ -1658,7 +1698,7 @@ body {
 
 .boton-se-text {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #155B2B;
   text-decoration: none;
@@ -1667,7 +1707,7 @@ body {
 
 .boton-se-text-conicono {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #155B2B;
   text-decoration: none;
@@ -1745,7 +1785,7 @@ body {
 }
 .boton-da-text {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #FCFBF7;
   text-decoration: none;
@@ -1755,7 +1795,7 @@ body {
 .boton-da-text-conicono {
   padding: 32px 32px 32px 12px;
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   color: #FCFBF7;
   text-decoration: none;
@@ -1813,8 +1853,25 @@ body {
 
 .cuadro-border {
   padding: 6px;
-  padding-top: 6px;
-  margin-bottom: 42px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 12px;
+  z-index: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#83BD79), to(#155B2B));
+  background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-bottom: 18px;
+  margin-top: 12px;
+}
+
+.cuadro-border-direccion {
+  padding: 6px;
+  margin-bottom: 24px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1830,8 +1887,8 @@ body {
 .cuadro-border-tarjet {
   visibility: hidden;
   padding: 6px;
-  padding-top: 6px;
-  margin-bottom: 42px;
+  margin-bottom: 30px;
+  margin-top: 6px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1845,6 +1902,23 @@ body {
 }
 
 .cuadro {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  border: 0;
+  border-radius: 9px;
+  background-color: #F8F6EC;
+  padding: 24px;
+}
+
+.cuadro-filldata {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1906,7 +1980,7 @@ body {
   border: 0;
   border-radius: 9px;
   background-color: #F8F6EC;
-  padding: 78px;
+  padding: 54px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1931,7 +2005,7 @@ body {
 
 .titulo-master {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 72px;
+  font-size: 66px;
   font-weight: 400;
   color: #FCFBF7;
   width: 872px;
@@ -1939,13 +2013,37 @@ body {
   z-index: 2;
   -webkit-filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
           filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
-  padding-bottom: 24px;
+  padding-bottom: 6px;
   margin-top: 0;
+}
+
+.titulo-master-mundo {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 66px;
+  font-weight: 400;
+  color: #FCFBF7;
+  width: 872px;
+  text-align: center;
+  z-index: 2;
+  -webkit-filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
+          filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
+  padding-bottom: 9px;
+  margin-top: 0;
+}
+
+.titulo-sec-master {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #FCFBF7;
+  width: 872px;
+  text-align: center;
+  padding-bottom: 18px;
 }
 
 .titulo-why {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
   color: #1D2824;
   margin: 0 36px 36px 36px;
@@ -1954,27 +2052,30 @@ body {
 
 .titulo-boton {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
-  margin-top: 66px;
+  margin-top: 36px;
 }
 
 .titel-footer {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #FCFBF7;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-top: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .titel-shop {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 400;
   color: #155B2B;
   text-align: center;
@@ -1985,7 +2086,7 @@ body {
 
 .titulo-inputs-register {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
@@ -1994,7 +2095,7 @@ body {
 
 .titulotext-filldata {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
@@ -2003,12 +2104,12 @@ body {
 
 .titulo-welcome {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 72px;
+  font-size: 66px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 54px;
+  margin-top: 54px;
+  margin-bottom: 42px;
   -webkit-animation: titulo 2s 3;
           animation: titulo 2s 3;
   -webkit-transform-origin: center;
@@ -2064,18 +2165,19 @@ body {
 }
 .titulo-modal {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .text-presentacion {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   color: #1D2824;
-  height: 220px;
   width: 417px;
   text-align: center;
   margin: 12px;
@@ -2084,7 +2186,7 @@ body {
 
 .text-why {
   font-family: "El Messiri", sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   margin-top: 0;
   margin-left: 32px;
@@ -2094,7 +2196,7 @@ body {
 
 .textenlace-footer {
   font-family: "El Messiri", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #FCFBF7;
   font-weight: 400;
   max-width: 370px;
@@ -2102,7 +2204,7 @@ body {
 
 .text-footer {
   font-family: "El Messiri", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #FCFBF7;
   font-weight: 700;
   height: -webkit-fit-content;
@@ -2114,31 +2216,31 @@ body {
 
 .text-header-pproduct-bold {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   color: #1D2824;
   text-align: center;
   margin: 0;
-  max-width: 988px;
+  max-width: 950px;
 }
 
 .text-header-pproduct {
-  font-family: "El Messiri", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  color: #1D2824;
-  text-align: center;
-  margin-top: 24px;
-  max-width: 920px;
-}
-
-.text-product {
   font-family: "El Messiri", sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
-  max-width: 1050px;
+  margin-top: 24px;
+  max-width: 700px;
+}
+
+.text-product {
+  font-family: "El Messiri", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1D2824;
+  text-align: center;
+  max-width: 875px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -2146,7 +2248,7 @@ body {
 
 .text-register {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   color: #1D2824;
   text-align: center;
@@ -2155,18 +2257,18 @@ body {
 
 .text-welcome {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
   width: 990px;
-  margin: 48px;
-  margin-bottom: 36px;
+  margin: 30px;
+  margin-bottom: 24px;
 }
 
 .text-input-princ {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: #1D2824;
   margin-bottom: 18px;
@@ -2175,7 +2277,7 @@ body {
 
 .text-checkbox {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
@@ -2184,27 +2286,29 @@ body {
 
 .text-modal {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
   max-width: 850px;
   padding: 12px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .text-modalbig {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
-  max-width: 1200px;
+  max-width: 800px;
   padding: 12px;
 }
 
 .text-infor {
   font-family: "El Messiri", sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   color: #1D2824;
   text-align: center;
@@ -2215,7 +2319,7 @@ body {
 
 .text-infor-cvc {
   font-family: "El Messiri", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   color: #1D2824;
   text-align: center;
@@ -2226,7 +2330,7 @@ body {
 
 .link-pr {
   font-family: "Port Lligat Sans", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   color: #FCFBF7;
   z-index: 0;
   padding: 24px;
@@ -2238,7 +2342,7 @@ body {
 
 .link-footer {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #FCFBF7;
   font-weight: 700;
 }
@@ -2249,7 +2353,7 @@ body {
 
 .link-footer-little {
   font-family: "El Messiri", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #FCFBF7;
   font-weight: 700;
   text-decoration: none;
@@ -2261,7 +2365,7 @@ body {
 
 .link-footer-tiny {
   font-family: "El Messiri", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #FCFBF7;
   font-weight: 700;
   margin: 12px;

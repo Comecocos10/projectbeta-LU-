@@ -9,9 +9,30 @@
         text-align: center;
         z-index: 2;
         filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
-        padding-bottom: 24px;
+        padding-bottom: 6px;
         margin-top: 0;
     }
+    .titulo-master-mundo{
+        font-family: $title;
+        font-size: $h1;
+        font-weight: $regular;
+        color: $white;
+        width: 872px;
+        text-align: center;
+        z-index: 2;
+        filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
+        padding-bottom: 9px;
+        margin-top: 0;
+    }
+        .titulo-sec-master{
+            font-family: $title;
+            font-size: $h3;
+            font-weight: $regular;
+            color: $white;
+            width: 872px;
+            text-align: center;
+            padding-bottom: 18px;
+        }
 
     .titulo-why{
         font-family: $title;
@@ -28,7 +49,7 @@
         font-weight: $regular;
         color: $black;
         text-align: center;
-        margin-top: 66px;
+        margin-top: 36px;
     }
 
     .titel-footer{
@@ -38,6 +59,7 @@
         color: $white;
         height: fit-content;
         margin-top: 12px;
+        width: fit-content;
     }
 
 //TITULOS PRODUCT PAGE//
@@ -83,8 +105,9 @@
         font-weight: $regular;
         color: $black;
         text-align: center;
-        margin-top: 60px;
-        margin-bottom: 54px;animation: titulo 2s 3;
+        margin-top: 54px;
+        margin-bottom: 42px;
+        animation: titulo 2s 3;
 	    transform-origin: center;
     }
         @keyframes titulo {
@@ -105,6 +128,7 @@
         font-size: $h2;
         font-weight: $regular;
         color: $black;
-        text-align: center
-
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
