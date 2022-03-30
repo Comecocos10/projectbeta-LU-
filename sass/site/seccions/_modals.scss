@@ -1,0 +1,149 @@
+[aria="dialog"] {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(131, 189, 121, 0.5625) -32.99%, rgba(21, 91, 43, 0.5625) 55.52%);
+    z-index: 100;
+}
+
+.modal{
+    overflow: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.modal-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.dos-botones-modal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+[aria="dialog-2"] {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.infor-full{
+    overflow: none;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+}
+
+.b-infor{
+    position: relative;
+    top: 25%;
+    display: none;
+}
+
+.infor-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.icons-infor{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+//INFO_CVC
+.infor-full-cvc{
+    overflow: none;
+    position: absolute;
+    top: 1845px;
+    left: 50%;
+    max-width: 500px;
+}
+
+.b-infor-cvc{
+    position: relative;
+    top: 25%;
+    display: none;
+}
+
+.infor-info-cvc{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.icons-infor-cvc{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+//DATOS TARJETA
+.infor-full-filldata{
+    overflow: none;
+    position: absolute;
+    top: 1845px;
+    left: 50%;
+    max-width: 500px;
+}
+
+.b-filldata{
+    position: relative;
+    top: 25%;
+    display: none;
+}
+
+.infor-info-filldata{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.icons-infor-filldata{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+//MODAL ACEPTAR DATOS
+.filldata-full{
+    overflow: none;
+    position: fixed;
+}
+.filldata{
+    overflow: none;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.filldata-info{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.b-filldata{
+    position: relative;
+    top: 25%;
+    display: none;
+}
+
+.icons-filldata{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

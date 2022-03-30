@@ -9,11 +9,19 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 36px;
 }
+.titulo-filldata-tarjet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 38px;
+}
+
 
 .inputs-little{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -22,7 +30,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 42px;
+    margin: 30px;
 }
 
 .checkbox-nd-boton{
@@ -30,5 +38,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 42px;
+    margin: 30px;
 }

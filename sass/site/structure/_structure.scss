@@ -3,10 +3,16 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
-    overflow-x: hidden;
     background-color: $white;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
 }
 
 .degradado{
@@ -43,23 +49,23 @@ body{
         }
     
         .drc{
-            right: -25px;
+            right: 5px;
             top: 2500px;
         }
         .drc-medium{
-            right: -25px;
+            right: 5px;
             top: 2000px;
         }
         .drc-little{
-            right: -25px;
-            top: 1790px;
+            right: 5px;
+            top: 1690px;
         }
         .drc-extralittle{
-            right: -25px;
+            right: 1px;
             top: 630px;
         }
         .drc-maxilittle{
-            right: -25px;
+            right: 5px;
             top: 330px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;

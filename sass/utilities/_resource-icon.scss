@@ -18,7 +18,27 @@
     height: 95px;
     margin: 24px;
 }
+ .icon-titel:hover{
+    animation: rotate-icon 1s infinite;
+    transform-origin: center;
+    }
+        @keyframes rotate-icon {
+        from { transform: none; }
+        30% { transform: rotate(15deg); }
+        70% { transform: rotate(-15deg); }
+        to { transform: none; }
+    }
 
     .icon-background{
         background: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
     }
+
+.icon-input{
+    width: 30px;
+    height: 30px;
+}
+
+.icon-input-filldata{
+    width: 30px;
+    height: 30px;
+}
