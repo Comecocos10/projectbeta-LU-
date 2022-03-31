@@ -192,6 +192,56 @@
   z-index: 2;
 }
 
+.logo-registro-user {
+  width: 50px;
+  margin-top: 18px;
+  z-index: 2;
+}
+
+.logo-registro-user:hover {
+  -webkit-animation: rotate-icon 1s 3;
+          animation: rotate-icon 1s 3;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+@-webkit-keyframes rotate-icon {
+  from {
+    -webkit-transform: none;
+            transform: none;
+  }
+  45% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  55% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes rotate-icon {
+  from {
+    -webkit-transform: none;
+            transform: none;
+  }
+  45% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  55% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
 .img-lu {
   -webkit-filter: opacity(60%);
           filter: opacity(60%);
@@ -374,25 +424,6 @@
           animation: rotate-icon 1s infinite;
   -webkit-transform-origin: center;
           transform-origin: center;
-}
-
-@-webkit-keyframes rotate-icon {
-  from {
-    -webkit-transform: none;
-            transform: none;
-  }
-  30% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
-  }
-  70% {
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg);
-  }
-  to {
-    -webkit-transform: none;
-            transform: none;
-  }
 }
 
 @keyframes rotate-icon {
@@ -930,6 +961,33 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 84px;
+}
+
+.header-comm-ml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-ml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 18px;
+  margin-right: 96px;
 }
 
 .info-header {
@@ -2328,8 +2386,17 @@ body {
   margin-bottom: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#83BD79), to(#155B2B));
   background: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.titulo-header-ml {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  color: #FCFBF7;
 }
 
 .text-presentacion {

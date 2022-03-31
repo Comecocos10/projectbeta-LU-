@@ -192,7 +192,17 @@
     margin-bottom: 0;
     background: -webkit-linear-gradient(180deg,#83BD79 0%,#155B2B 100%);
     background: linear-gradient(180deg,#83BD79 0%,#155B2B 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+
+//TITULO HEADER ML//
+.titulo-header-ml{
+    font-family: $title;
+    font-size: $h5;
+    font-weight: $regular;
+    margin: 0;
+    color: $white;
 }
