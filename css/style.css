@@ -746,6 +746,10 @@ body {
   border-radius: 9px;
 }
 
+.video-product:focus {
+  outline: none;
+}
+
 .cuerpo-register {
   display: -webkit-box;
   display: -ms-flexbox;
