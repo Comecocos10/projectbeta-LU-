@@ -36,26 +36,26 @@ body{
         to { transform: none; }
     }
         .izq{
-            top: 1050px;
-            left: -25px;
+            top: 1000px;
+            left: 5px;
         }
         .izq-little{
             top: 350px;
-            left: -25px;
+            left: 5px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
         }
 
         .izq-maxlittle{
             top: 200px;
-            left: -25px;
+            left: 5px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
         }
     
         .drc{
             right: 5px;
-            top: 2050px;
+            top: 2000px;
         }
         .drc-medium{
             right: 5px;
