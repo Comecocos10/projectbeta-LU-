@@ -899,6 +899,39 @@ body {
           align-items: center;
 }
 
+.cuerpo-commun {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recambios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 84px;
+}
+
 .info-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1940,7 +1973,13 @@ body {
 }
 
 .chat {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
+}
+
+.comm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .cuadro {
@@ -1988,6 +2027,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.ml-community {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  padding: 24px;
 }
 
 .inputs-register {
@@ -2165,8 +2215,8 @@ body {
   text-align: center;
   margin-top: 54px;
   margin-bottom: 42px;
-  -webkit-animation: titulo 2s 3;
-          animation: titulo 2s 3;
+  -webkit-animation: titulo 1s 2 1.5s;
+          animation: titulo 1s 2 1.5s;
   -webkit-transform-origin: center;
           transform-origin: center;
 }
@@ -2240,6 +2290,22 @@ body {
           align-items: center;
 }
 
+.titulo-full-community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .titulo-ml {
   font-family: "Port Lligat Sans", sans-serif;
   font-size: 66px;
@@ -2247,6 +2313,10 @@ body {
   color: #1D2824;
   text-align: center;
   z-index: 2;
+}
+
+.recambios-titulo {
+  margin-top: 12px;
 }
 
 .titulo-numero-ml {
@@ -2492,4 +2562,22 @@ body {
 
 .link-register-tiny:hover {
   color: #B22B01;
+}
+
+.link-ml {
+  margin-bottom: 90px;
+  color: #B22B01;
+}
+
+.link-ml:hover {
+  color: #E93901;
+}
+
+.link-ml-comm {
+  margin-top: 12px;
+  color: #E9B500;
+}
+
+.link-ml-comm:hover {
+  color: #F9E18E;
 }

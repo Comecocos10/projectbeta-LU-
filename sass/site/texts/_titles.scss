@@ -109,7 +109,7 @@
     text-align: center;
     margin-top: 54px;
     margin-bottom: 42px;
-    animation: titulo 2s 3;
+    animation: titulo 1s 2 1.5s;
     transform-origin: center;
 }
 
@@ -156,11 +156,18 @@
     margin-bottom: 12px;
 }
 
-//TITULO ML MASTER//
+//TITULO ML//
 .titulo-full{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.titulo-full-community{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 .titulo-ml {
@@ -171,6 +178,10 @@
     text-align: center;
     z-index: 2;
 }
+
+    .recambios-titulo{
+        margin-top: 12px;
+    }
 
 .titulo-numero-ml {
     font-family: $title;
