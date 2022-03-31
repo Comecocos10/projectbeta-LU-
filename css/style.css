@@ -342,11 +342,17 @@
 .icon-boton-pr {
   padding-left: 12px;
   width: 75px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .icon-boton-se {
   padding-left: 12px;
   width: 75px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .icon-d-footer {
@@ -511,13 +517,13 @@ body {
   }
 }
 .izq {
-  top: 1050px;
-  left: -25px;
+  top: 1000px;
+  left: 5px;
 }
 
 .izq-little {
   top: 350px;
-  left: -25px;
+  left: 5px;
   -webkit-animation: latidos-mini 8s infinite;
           animation: latidos-mini 8s infinite;
   -webkit-transform-origin: center;
@@ -526,7 +532,7 @@ body {
 
 .izq-maxlittle {
   top: 200px;
-  left: -25px;
+  left: 5px;
   -webkit-animation: latidos-mini 8s infinite;
           animation: latidos-mini 8s infinite;
   -webkit-transform-origin: center;
@@ -535,7 +541,7 @@ body {
 
 .drc {
   right: 5px;
-  top: 2050px;
+  top: 2000px;
 }
 
 .drc-medium {
@@ -877,6 +883,22 @@ body {
   margin-top: 36px;
 }
 
+.cuerpo-ml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .info-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -893,7 +915,7 @@ body {
           align-items: center;
   position: absolute;
   top: 36px;
-  left: 25%;
+  left: 22.5%;
 }
 
 .info-header-pp {
@@ -1087,7 +1109,7 @@ body {
   }
 }
 .direccion-footer {
-  margin-left: 135px;
+  margin-left: 60px;
   margin-right: 54px;
 }
 
@@ -1901,6 +1923,26 @@ body {
   background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
 }
 
+.cuadro-border-ml {
+  padding: 6px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 12px;
+  z-index: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#83BD79), to(#155B2B));
+  background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+}
+
+.chat {
+  margin-bottom: 90px;
+}
+
 .cuadro {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1933,6 +1975,19 @@ body {
   border-radius: 9px;
   background-color: #F8F6EC;
   padding: 36px;
+}
+
+.ml-master {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .inputs-register {
@@ -2173,6 +2228,40 @@ body {
   margin-bottom: 12px;
 }
 
+.titulo-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titulo-ml {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 66px;
+  font-weight: 400;
+  color: #1D2824;
+  text-align: center;
+  z-index: 2;
+}
+
+.titulo-numero-ml {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 66px;
+  font-weight: 400;
+  margin-right: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#83BD79), to(#155B2B));
+  background: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .text-presentacion {
   font-family: "El Messiri", sans-serif;
   font-size: 30px;
@@ -2328,6 +2417,16 @@ body {
   margin: 0;
 }
 
+.text-ml {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #1D2824;
+  text-align: center;
+  max-width: 500px;
+  padding: 12px;
+}
+
 .link-pr {
   font-family: "Port Lligat Sans", sans-serif;
   font-size: 30px;
@@ -2357,6 +2456,7 @@ body {
   color: #FCFBF7;
   font-weight: 700;
   text-decoration: none;
+  max-width: 180px;
 }
 
 .link-footer-little:hover {

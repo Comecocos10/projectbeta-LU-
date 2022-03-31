@@ -1,134 +1,187 @@
 //TITULOS MASTER//
 
-    .titulo-master{
-        font-family: $title;
-        font-size: $h1;
-        font-weight: $regular;
-        color: $white;
-        width: 872px;
-        text-align: center;
-        z-index: 2;
-        filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
-        padding-bottom: 6px;
-        margin-top: 0;
-    }
-    .titulo-master-mundo{
-        font-family: $title;
-        font-size: $h1;
-        font-weight: $regular;
-        color: $white;
-        width: 872px;
-        text-align: center;
-        z-index: 2;
-        filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
-        padding-bottom: 9px;
-        margin-top: 0;
-    }
-        .titulo-sec-master{
-            font-family: $title;
-            font-size: $h3;
-            font-weight: $regular;
-            color: $white;
-            width: 872px;
-            text-align: center;
-            padding-bottom: 18px;
-        }
+.titulo-master {
+    font-family: $title;
+    font-size: $h1;
+    font-weight: $regular;
+    color: $white;
+    width: 872px;
+    text-align: center;
+    z-index: 2;
+    filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
+    padding-bottom: 6px;
+    margin-top: 0;
+}
 
-    .titulo-why{
-        font-family: $title;
-        font-size: $h3;
-        font-weight: $regular;
-        color: $black;
-        margin: 0 36px 36px 36px;
-        text-align: center;
-    }
+.titulo-master-mundo {
+    font-family: $title;
+    font-size: $h1;
+    font-weight: $regular;
+    color: $white;
+    width: 872px;
+    text-align: center;
+    z-index: 2;
+    filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
+    padding-bottom: 9px;
+    margin-top: 0;
+}
 
-    .titulo-boton{
-        font-family: $title;
-        font-size: $h3;
-        font-weight: $regular;
-        color: $black;
-        text-align: center;
-        margin-top: 36px;
-    }
+.titulo-sec-master {
+    font-family: $title;
+    font-size: $h3;
+    font-weight: $regular;
+    color: $white;
+    width: 872px;
+    text-align: center;
+    padding-bottom: 18px;
+}
 
-    .titel-footer{
-        font-family: $text;
-        font-size: $p-little;
-        font-weight: $regular;
-        color: $white;
-        height: fit-content;
-        margin-top: 12px;
-        width: fit-content;
-    }
+.titulo-why {
+    font-family: $title;
+    font-size: $h3;
+    font-weight: $regular;
+    color: $black;
+    margin: 0 36px 36px 36px;
+    text-align: center;
+}
+
+.titulo-boton {
+    font-family: $title;
+    font-size: $h3;
+    font-weight: $regular;
+    color: $black;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.titel-footer {
+    font-family: $text;
+    font-size: $p-little;
+    font-weight: $regular;
+    color: $white;
+    height: fit-content;
+    margin-top: 12px;
+    width: fit-content;
+}
 
 //TITULOS PRODUCT PAGE//
 
-    .titel-shop{
-        font-family: $title;
-        font-size: $h2;
-        font-weight: $regular;
-        color: $green-dark;
-        text-align: center;
-        margin-top: 24px;
-        margin-bottom: 30px;
-        max-width: 990px;
-    }
+.titel-shop {
+    font-family: $title;
+    font-size: $h2;
+    font-weight: $regular;
+    color: $green-dark;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    max-width: 990px;
+}
 
 //TITULOS REGISTER//
 
-    .titulo-inputs-register{
-        font-family: $title;
-        font-size: $h3;
-        font-weight: $regular;
-        color: $black;
-        text-align: center;
-        margin-bottom: 12px;
-    }
+.titulo-inputs-register {
+    font-family: $title;
+    font-size: $h3;
+    font-weight: $regular;
+    color: $black;
+    text-align: center;
+    margin-bottom: 12px;
+}
 
 //TITULOS FILLDATA//
 
-    .titulotext-filldata{
-        font-family: $title;
-        font-size: $h3;
-        font-weight: $regular;
-        color: $black;
-        text-align: center;
-        margin: 12px;
-    }
+.titulotext-filldata {
+    font-family: $title;
+    font-size: $h3;
+    font-weight: $regular;
+    color: $black;
+    text-align: center;
+    margin: 12px;
+}
 
 //TITULO WELCOME//
 
-    .titulo-welcome{
-        font-family: $title;
-        font-size: $h1;
-        font-weight: $regular;
+.titulo-welcome {
+    font-family: $title;
+    font-size: $h1;
+    font-weight: $regular;
+    color: $black;
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: 42px;
+    animation: titulo 2s 3;
+    transform-origin: center;
+}
+
+@keyframes titulo {
+    from {
+        color: $black
+    }
+
+    10% {
+        color: $green-dark;
+    }
+
+    30% {
+        color: $yellow-dark;
+    }
+
+    50% {
+        color: $yellow-light;
+    }
+
+    70% {
+        color: $yellow-dark;
+    }
+
+    90% {
+        color: $green-dark;
+    }
+
+    to {
         color: $black;
-        text-align: center;
-        margin-top: 54px;
-        margin-bottom: 42px;
-        animation: titulo 2s 3;
-	    transform-origin: center;
     }
-        @keyframes titulo {
-        from { color:$black }
-        10% { color: $green-dark; }
-        30% { color: $yellow-dark; }
-        50% { color: $yellow-light; }
-        70% { color: $yellow-dark; }
-        90% { color: $green-dark; }
-        to { color: $black; }
-    }
-    
+}
+
 
 //TITULO MODAL//
 
-    .titulo-modal{
-        font-family: $title;
-        font-size: $h2;
-        font-weight: $regular;
-        color: $black;
-        text-align: center;
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
+.titulo-modal {
+    font-family: $title;
+    font-size: $h2;
+    font-weight: $regular;
+    color: $black;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+//TITULO ML MASTER//
+.titulo-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-ml {
+    font-family: $title;
+    font-size: $h1;
+    font-weight: $regular;
+    color: $black;
+    text-align: center;
+    z-index: 2;
+}
+
+.titulo-numero-ml {
+    font-family: $title;
+    font-size: $h1;
+    font-weight: $regular;
+    margin-right: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(180deg,#83BD79 0%,#155B2B 100%);
+    background: linear-gradient(180deg,#83BD79 0%,#155B2B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
