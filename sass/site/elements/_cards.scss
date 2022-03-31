@@ -44,7 +44,11 @@
     background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
 }
     .chat{
-        margin-bottom: 90px;
+        margin-bottom: 60px;
+    }
+
+    .comm{
+        display: flex;
     }
 
 .cuadro{
@@ -73,6 +77,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.ml-community {
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding: 24px;
 }
 
 //INPUT CARD//
