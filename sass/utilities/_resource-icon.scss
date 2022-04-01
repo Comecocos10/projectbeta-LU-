@@ -67,3 +67,22 @@
         width: 30px;
         height: 30px;
     }
+
+    .icon-card-blog:hover {
+        animation: boton 1s 1;
+        transform-origin: center;
+    }
+    
+    @keyframes boton {
+        from {
+            transform: none;
+        }
+    
+        50% {
+            transform: scale(1.5);
+        }
+    
+        to {
+            transform: none;
+        }
+    }

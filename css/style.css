@@ -490,6 +490,42 @@
   height: 30px;
 }
 
+.icon-card-blog:hover {
+  -webkit-animation: boton 1s 1;
+          animation: boton 1s 1;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+@-webkit-keyframes boton {
+  from {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes boton {
+  from {
+    -webkit-transform: none;
+            transform: none;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
 * {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -1036,9 +1072,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1902,21 +1935,6 @@ body {
           animation: boton 1s 1;
   -webkit-transform-origin: center;
           transform-origin: center;
-}
-
-@-webkit-keyframes boton {
-  from {
-    -webkit-transform: none;
-            transform: none;
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  to {
-    -webkit-transform: none;
-            transform: none;
-  }
 }
 
 @keyframes boton {
