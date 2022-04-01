@@ -36,6 +36,13 @@
         background: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
     }
 
+.icon-header-ml{
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    margin-right: 24px;
+}
+
 .icon-input{
     width: 30px;
     height: 30px;
@@ -45,3 +52,37 @@
     width: 30px;
     height: 30px;
 }
+
+.icon-blog{
+    width: 60px;
+    height: 60px;
+}
+
+    .up{
+        transform: rotate(180deg);
+        display: none;
+    }
+
+    .icon-card-blog{
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon-card-blog:hover {
+        animation: boton 1s 1;
+        transform-origin: center;
+    }
+    
+    @keyframes boton {
+        from {
+            transform: none;
+        }
+    
+        50% {
+            transform: scale(1.5);
+        }
+    
+        to {
+            transform: none;
+        }
+    }

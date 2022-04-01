@@ -20,3 +20,49 @@
     align-items: center;
     margin-bottom: 84px;
 }
+
+.user-ml{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-right: 96px;
+}
+
+//BLOG//
+.titulo-ml-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuerpo-card-blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-card-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .nombre-fecha{
+        display: flex;
+        flex-direction: column;
+    }
+
+        .linea-card-blog{
+            display: flex;
+            flex-direction: row;
+        }
+
+    .icon-full-card-blog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
