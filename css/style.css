@@ -449,6 +449,11 @@
   background: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
 }
 
+.icon-header-ml {
+  width: 75px;
+  margin: 0;
+}
+
 .icon-input {
   width: 30px;
   height: 30px;
@@ -992,6 +997,18 @@ body {
           align-items: center;
   margin-bottom: 18px;
   margin-right: 96px;
+}
+
+.titulo-ml-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .info-header {
@@ -2206,6 +2223,15 @@ body {
   width: 872px;
   text-align: center;
   padding-bottom: 18px;
+}
+
+.titulo-sec-master-blog {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #FCFBF7;
+  text-align: center;
+  margin: 0;
 }
 
 .titulo-why {
