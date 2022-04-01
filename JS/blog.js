@@ -9,23 +9,13 @@ function showElementBlog() {
 
 function showElementBoton(){
 
-    function showElementDown() {
-        const check = document.querySelector('.checkbox-desplegable');
-        if (check.checked === true) {
-            document.querySelector('.down').style.display = 'none';
-        } else {
-            document.querySelector('.down').style.display = 'block';
-        }
-    }
 
-    function showElementUp() {
         const check = document.querySelector('.checkbox-desplegable');
         if (check.checked === true) {
-            document.querySelector('.up').style.display = 'block';
+            document.querySelector('.icon-blog').classList.add('up');
         } else {
-            document.querySelector('.up').style.display = 'none';
+            document.querySelector('.icon-blog').classList.remove('up');
         }
-    }
 
 }
 

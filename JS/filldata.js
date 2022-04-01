@@ -35,3 +35,8 @@ function showElementFilldata() {
     }
 }
 
+function hidelementFilldata() {
+    const check = document.querySelector('.b-filldata');
+    check.checked = false;
+}
+
