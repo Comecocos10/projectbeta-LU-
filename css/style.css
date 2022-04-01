@@ -479,6 +479,12 @@
   height: 60px;
 }
 
+.up {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  display: none;
+}
+
 .icon-card-blog {
   width: 30px;
   height: 30px;
@@ -1844,6 +1850,10 @@ body {
   display: none;
 }
 
+.checkbox-desplegable {
+  display: none;
+}
+
 .boton-pr-text {
   font-family: "Port Lligat Sans", sans-serif;
   font-size: 30px;
@@ -2289,8 +2299,8 @@ body {
   border-radius: 6px;
   -webkit-box-shadow: 2px 2px 2px rgba(29, 40, 36, 0.25);
           box-shadow: 2px 2px 2px rgba(29, 40, 36, 0.25);
-  padding: 24px;
-  margin-bottom: 36px;
+  padding: 30px;
+  margin-bottom: 66px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2303,6 +2313,10 @@ body {
   background-color: #F8F6EC;
 }
 
+.primero {
+  margin-top: 36px;
+}
+
 .cuadro-desplegable-detras {
   background-color: #F8F6EC;
   width: 1250px;
@@ -2313,7 +2327,7 @@ body {
   padding: 24px;
   margin-bottom: 36px;
   position: relative;
-  top: -54px;
+  top: -84px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;

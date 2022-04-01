@@ -132,12 +132,16 @@
     width: 1250px;
     border-radius: 6px;
     box-shadow: 2px 2px 2px rgba(29, 40, 36, 0.25);
-    padding: 24px;
-    margin-bottom: 36px;
+    padding: 30px;
+    margin-bottom: 66px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: $beige;
+}
+
+.primero{
+    margin-top: 36px;
 }
 
 .cuadro-desplegable-detras{
@@ -149,7 +153,7 @@
     padding: 24px;
     margin-bottom: 36px;
     position: relative;
-    top: -54px;
+    top: -84px;
     height: fit-content;
     display: none;
 }

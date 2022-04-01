@@ -58,6 +58,11 @@
     height: 60px;
 }
 
+    .up{
+        transform: rotate(180deg);
+        display: none;
+    }
+
     .icon-card-blog{
         width: 30px;
         height: 30px;
