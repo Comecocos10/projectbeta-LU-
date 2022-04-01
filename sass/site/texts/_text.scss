@@ -169,3 +169,20 @@
     max-width: 500px;
     padding: 12px;
 }
+
+.text-card-blog {
+    font-family: $text;
+    font-size: $p-little;
+    font-weight: $regular;
+    color: $white;
+    margin: 0;
+}
+
+.text-card-blog-min{
+    font-family: $text;
+    font-size: $p-little;
+    font-weight: $regular;
+    color: #FCFBF780;
+    margin: 0;
+    margin-left: 12px;
+}

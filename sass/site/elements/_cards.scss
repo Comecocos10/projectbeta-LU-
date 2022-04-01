@@ -127,4 +127,41 @@
     padding: 18px;
 }
 
-//Recipe Card//
+//DESPLEGABLE CARD//
+.cuadro-desplegable {
+    width: 1250px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(29, 40, 36, 0.25);
+    padding: 24px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $beige;
+}
+
+.cuadro-desplegable-detras{
+    background-color: $beige;
+    width: 1250px;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(29, 40, 36, 0.25);
+    padding: 24px;
+    margin-bottom: 36px;
+    position: relative;
+    top: -54px;
+    height: fit-content;
+    display: none;
+}
+
+//ENTRADA AL BLOG CARD//
+
+.card-blog{
+    width: fit-content;
+    background-image: linear-gradient(180deg, #83BD79 0%, #155B2B 100%);
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
