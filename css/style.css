@@ -1266,6 +1266,54 @@ body {
   display: flex;
 }
 
+.us-valores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 725px;
+}
+
+.us-molecula {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 360px;
+}
+
+.contenido-aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .info-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2381,6 +2429,9 @@ body {
 
 .blog-entrada {
   padding: 42px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .inputs-register {
@@ -2797,6 +2848,17 @@ body {
   margin-bottom: 24px;
 }
 
+.titulo-little {
+  font-family: "Port Lligat Sans", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: #1D2824;
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 .text-presentacion {
   font-family: "El Messiri", sans-serif;
   font-size: 30px;
@@ -3000,6 +3062,11 @@ body {
   margin: 0;
   margin-bottom: 54px;
   margin-top: 30px;
+}
+
+.little {
+  text-align: center;
+  max-width: 725px;
 }
 
 .link-pr {

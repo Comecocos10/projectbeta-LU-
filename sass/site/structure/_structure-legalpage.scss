@@ -1,0 +1,21 @@
+.us-valores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 725px;
+}
+    .us-molecula{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        max-width: 360px;
+    }
+
+.contenido-aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
