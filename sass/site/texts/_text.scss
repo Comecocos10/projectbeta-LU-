@@ -186,3 +186,25 @@
     margin: 0;
     margin-left: 12px;
 }
+
+.text-entrada-blog{
+    font-family: $text;
+    font-size: $p-big;
+    font-weight: $regular;
+    color: $black;
+}
+    .actu{
+        color: #1D282480;
+        margin-left: 42px;
+    }
+
+.parrafo-entrada-blog{
+    font-family: $text;
+    font-size: $p-medium;
+    font-weight: $regular;
+    color: $black;
+    max-width: 850px;
+    margin: 0;
+    margin-bottom: 54px;
+    margin-top: 30px;
+}

@@ -26,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18px;
     margin-right: 96px;
 }
 
@@ -41,7 +40,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: -1;
 }
 
 .cuerpo-card-blog{
@@ -71,4 +69,39 @@
         flex-direction: column;
         align-items: center;
     }
+
+//ENTRADA BLOG//
+.cuerpo-full-entrada{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-entrada-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-entrada-blog{
+    position: absolute;
+    top: 140px;
+    z-index: -1;
+}
+
+.autor-fecha{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .autor{
+        display: flex;
+        align-items: center;
+    }
+    .fecha {
+        display: flex;
+    }
+
+
 

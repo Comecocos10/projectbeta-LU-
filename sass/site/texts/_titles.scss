@@ -43,7 +43,12 @@
     color: $white;
     text-align: center;
     margin: 0;
+    text-decoration: none;
 }
+    .link:hover {
+        color: $yellow-light;
+    }
+    
 
 .titulo-why {
     font-family: $title;
@@ -194,6 +199,7 @@
 
 .titulo-numero-ml {
     font-family: $title;
+    text-align: center;
     font-size: $h1;
     font-weight: $regular;
     margin-right: 24px;
@@ -224,10 +230,12 @@
     font-weight: $regular;
     color: $black;
     margin: 0;
+    text-decoration: none;
 }
 
 .titulo-card-blog {
     text-align: center;
+    text-decoration: none;
     font-family: $title;
     font-size: $h5;
     font-weight: $regular;
@@ -237,4 +245,19 @@
     color: $white;
     max-width: 357px;
     height: 52px;
+    
+    
+}
+    .titulo-card-blog:hover {
+        color: $yellow-light;
+    }
+
+.titulo-entrada-blog{
+    font-family: $title;
+    font-size: $h3;
+    font-weight: $regular;
+    color: $black;
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
