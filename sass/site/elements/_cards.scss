@@ -92,8 +92,13 @@
 .blog-entrada{
     padding: 42px;
     width: fit-content;
-    
 }
+.blog-entrada-legal {
+    padding: 42px;
+    width: fit-content;
+    background-color: $white;
+}
+
 
 //INPUT CARD//
 
@@ -173,6 +178,14 @@
         position: absolute;
         top: 190px;
         display: none;
+    }
+.dos{
+    margin: 0;
+        
+}
+
+    .legal{
+        height: 1046px;
     }
 
 //ENTRADA AL BLOG CARD//

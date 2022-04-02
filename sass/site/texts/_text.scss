@@ -209,8 +209,19 @@
     margin-top: 30px;
 }
 
-//ABOUT US//
+//LEGAL PAGE//
 .little{
     text-align: center;
     max-width: 725px;
+    margin-bottom: 48px;
+}
+
+.parrafo-entrada-legal {
+    font-family: $text;
+    font-size: $p-medium;
+    font-weight: $regular;
+    color: $black;
+    margin: 0;
+    margin-bottom: 54px;
+    margin-top: 30px;
 }
