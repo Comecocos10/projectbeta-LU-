@@ -1,0 +1,43 @@
+.full-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cuerpo-user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 84px;
+    margin-right: 42px;
+}
+.userymedallas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .medallas{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .medallas-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputs-user{
+        margin-left: 186px;
+    }
+
+.ctas-welcome {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
