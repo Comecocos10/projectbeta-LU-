@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="header-comm-ml">
+    <header id="#header" class="header-comm-ml">
         <img class="imagen-header" src="../../resources/images/fondo-little.png" alt="">
         <a href="../master.html">
             <img class="logo-registro" src="../../resources/images/Logo.png" alt="">
@@ -30,7 +30,7 @@
         <section class="cuerpo-user">
             <div class="userymedallas">
                 <div>
-                    <img class="user-page" src="../../resources/images/user-noreg.png" alt="">
+                    <img class="user-page" src="../../resources/images/user-regcom.png" alt="">
                     <div class="circulo"></div>
                 </div>
                 <div class="cuadro-border">
@@ -53,7 +53,27 @@
                 <div class="input-princ">
                     <label class="text-input-princ">¿Cómo te llamamos?</label>
                     <div class="cuadro-input-princ-border">
-                        <input class="cuadro-input-princ" type="text" placeholder="Fulanito Menganito Individuo" name="" id="">
+                        <div class="contenedor">
+                            <div class="cuadro-input">
+                                <input class="cuadro-input-princ" type="text" inputmode="verbatim"
+                                    placeholder="Fulanito Menganito Individuo" name="" id="contraseña">
+                                <label class="icon-input" for="checkbox-infor">
+                                    <svg class="icon-input" width="148" height="148" viewBox="0 0 148 148" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient id="linearGradient" gradientTransform="rotate(90 .5 .5)">
+                                                <stop offset="0%" stop-color="rgba(131, 189, 121, 1)"></stop>
+                                                <stop offset="100%" stop-color="rgba(21, 91, 43, 1)"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M74 3C113.212 3.00001 145 34.7878 145 74C145 113.212 113.212 145 74 145C34.7878 145 3 113.212 3 74C3 34.7878 34.7878 2.99999 74 3ZM41.1849 70.3485V75.7212C41.1849 79.0349 43.8712 81.7212 47.1849 81.7212H58.3485C61.6622 81.7212 64.3485 84.4075 64.3485 87.7212V100.815C64.3485 104.129 67.0348 106.815 70.3485 106.815H78.6167C81.9304 106.815 84.6167 104.129 84.6167 100.815V87.7212C84.6167 84.4075 87.3029 81.7212 90.6167 81.7212H100.815C104.129 81.7212 106.815 79.0349 106.815 75.7212V70.3485C106.815 67.0348 104.129 64.3485 100.815 64.3485H90.6167C87.3029 64.3485 84.6167 61.6622 84.6167 58.3485V47.1849C84.6167 43.8712 81.9304 41.1849 78.6167 41.1849H70.3485C67.0348 41.1849 64.3485 43.8712 64.3485 47.1849V58.3485C64.3485 61.6622 61.6622 64.3485 58.3485 64.3485H47.1849C43.8712 64.3485 41.1849 67.0348 41.1849 70.3485Z"
+                                            fill="url(#linearGradient)" />
+                                    </svg>
+                                </label>
+                
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="input-princ">
@@ -115,12 +135,12 @@
             <div class="boton-se-border">
                 <div class="boton-se">
                     <img class="icon-boton-se" src="../../resources/images/Mundo Lu.png" alt="">
-                    <a class="boton-se-text-conicono" href="">Explorar el Mundo Lü</a>
+                    <a class="boton-se-text-conicono" href="../navegation-community/community.html">Explorar el Mundo Lü</a>
                 </div>
             </div>
             <div class="boton-pr">
                 <img class="icon-boton-pr" src="../../resources/images/tienda.png" alt="">
-                <a class="boton-pr-text-conicono" href="../navegation-community/master-community.html">Comprar recambios</a>
+                <a class="boton-pr-text-conicono" href="recambios.html">Comprar recambios</a>
             </div>
             
         </section>
@@ -129,7 +149,9 @@
     
     <div class="degradado drc-maxilittle"></div>
     <footer class="footer-pproduct-dos">
-        <img class="logo-footer-pp" src="../../resources/images/Logo.png" alt="">
+        <a class="logo-footer-pp" href="#header">
+            <img class="logo-footer-pp" src="../../resources/images/Logo.png" alt="">
+        </a>
         <section class="footer-pproduct-enlaces">
             <div class="secciones-footer-pproduct">
                 <a class="link-footer-tiny" href="../navegacion-legal/aboutus.html">Lü, ¿Qué hay detrás?</a>

@@ -32,9 +32,16 @@ body{
 
         @keyframes latidos-mini {
         from { transform: none; }
-        40% { transform: scale(2.5); }
+        40% { transform: scale(.5); }
         to { transform: none; }
     }
+
+        @keyframes latidos-ultramini {
+        from { transform: none; }
+        40% { transform: scale(1.5); }
+        to { transform: none; }
+    }
+
         .izq{
             top: 1000px;
             left: 5px;
@@ -47,10 +54,18 @@ body{
         }
 
         .izq-maxlittle{
-            top: 200px;
+            top: 150px;
             left: 5px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
+        }
+
+        .izq-ultralittle {
+            right: 5px;
+            top: 100px;
+            left: 5px;
+            animation: latidos-ultramini 8s infinite;
+            transform-origin: center;
         }
     
         .drc{
@@ -71,7 +86,13 @@ body{
         }
         .drc-maxilittle{
             right: 5px;
-            top: 200px;
+            top: 150px;
             animation: latidos-mini 8s infinite;
 	        transform-origin: center;
+        }
+        .drc-ultralittle{
+            right: 5px;
+            top: 50px;
+            animation: latidos-ultramini 8s infinite;
+            transform-origin: center;
         }

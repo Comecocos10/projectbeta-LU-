@@ -1,19 +1,22 @@
 //IMG HEADER//
+.img-header-master{
+    display: flex;
+    justify-content: center;
+}
 
     .imagen-blur{
-        filter: blur(15px);
+        filter: blur(25px);
         position: absolute;
-        width: 100vw;
+        
     }
     .imagen-opacity{
-        opacity: 40%;
-        width: 100vw;
+        opacity: 20%;
     }
 
     .imagen-little-blur{
         position: absolute;
-        width: 100vw;
         opacity: 35%;
+        top: 0;
         animation: borroso-header 8s infinite;
         transform-origin: center;
     }
@@ -25,9 +28,8 @@
     }
     
     .imagen-little-opacity{
-        filter: blur(0.9px);
-        opacity: 50%;
-        width: 100vw;
+        filter: blur(1px);
+        opacity: 25%;
     }
 
     .imagen-blog-blur {
@@ -74,8 +76,8 @@
  
     .logo-footer{
         width: 155px;
-        margin-top: 42px;
-        margin-left: 66px;
+        margin-top: 30px;
+        margin-left: 42px;
         position: absolute;
     }
 
@@ -161,9 +163,9 @@
     }
 
     .simbolo-r{
-        width: 45px;
-        height: 45px;
-        margin-top: 3px;
+        width: 35px;
+        height: 35px;
+        margin-left: 30px;
     }
 
     .dibujo-lu{

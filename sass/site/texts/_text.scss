@@ -17,7 +17,7 @@
         font-size: $p-medium;
         font-weight: $regular;
         margin-top: 0;
-        margin-left: 32px;
+        margin-left: 12px;
         color: $black;
         max-width: 1000px;
     }
@@ -234,4 +234,13 @@
 
 .t-user{
     margin: 12px;
+}
+
+//PROXIMAMENTE//
+.proximamente{
+    margin-bottom: 120px;
+}
+.proximamente-dos {
+    margin-bottom: 60px;
+    margin-top: 90px
 }

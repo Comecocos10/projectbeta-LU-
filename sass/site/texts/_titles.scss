@@ -3,9 +3,9 @@
 .titulo-master {
     font-family: $title;
     font-size: $h1;
+    max-width: 872px;
     font-weight: $regular;
     color: $white;
-    width: 872px;
     text-align: center;
     z-index: 2;
     filter: drop-shadow(6px 6px 1px rgba(29, 40, 36, 0.5));
@@ -221,6 +221,7 @@
     margin: 0;
     margin-bottom: 24px;
     color: $white;
+    text-decoration: none;
 }
 
 //TITULO BLOG//
